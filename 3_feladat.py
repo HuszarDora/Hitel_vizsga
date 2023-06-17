@@ -92,7 +92,6 @@ plt.title('EWMA Volatility Forecast (Decay Factor 0.94)')
 plt.ylim(0, 0.015)
 
 
-
 plt.subplot(1, 2, 2)
 plt.plot(data.index[window_size_2:], volatility_forecast_2)
 plt.xlabel('Time')
