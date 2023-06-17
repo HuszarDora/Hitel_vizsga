@@ -103,7 +103,7 @@ plt.plot(data.index[window_size_1:], variance_forecast_1)
 plt.xlabel('Time')
 plt.ylabel('Variance')
 plt.title('EWMA Variance Forecast (Decay Factor 0.94)')
-plt.ylim(0, 0.015)
+plt.ylim(0, 0.0002)
 
 
 plt.subplot(1, 2, 2)
@@ -111,7 +111,7 @@ plt.plot(data.index[window_size_2:], variance_forecast_2)
 plt.xlabel('Time')
 plt.ylabel('Variance')
 plt.title('EWMA Variance Forecast (Decay Factor 0.97)')
-plt.ylim(0, 0.015)
+plt.ylim(0, 0.0002)
 
 
 plt.tight_layout()
